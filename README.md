@@ -1,23 +1,32 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is about my page with about my RPG battle maps (it's only a business card).\
+It's available here: [https://ndvmaps.narin.dev/](https://ndvmaps.narin.dev).
+
+# Local development
+## Requirements
+1. Node.js >= v 18.0.0
+2. Yarn or Nom installed
+
+## How to
+1. Clone this repository.
+2. Run `yarn install` inside the main directory.
+3. Wait... Wait...
+4. Run `yarn start` to start the project
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser (the page will reload if you make edits)
+6. Happy coding!
+
+# App structure
+- `public` - public, static elements (logo etc.)
+- `src/assets` - assets in the app
+- `src/data` - data (language, theme etc.)
+- `src/types` - types used in the app (more than only locally)
+- `src/elements` - single page elements/views
+- `src/elements/common` - common page elements, used more than once
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -38,9 +47,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
